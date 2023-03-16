@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteractionConcoleCalculator", "InteractionConcoleCalculator\InteractionConcoleCalculator.csproj", "{A42376E8-C5F2-4D62-9D7A-5156BADCE39D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteratcionConsoleCalculator.Tests", "InteratcionConsoleCalculatorTests\InteratcionConsoleCalculator.Tests.csproj", "{15E1EFD2-4868-47B9-8DD8-DF6C08799680}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A42376E8-C5F2-4D62-9D7A-5156BADCE39D} = {A42376E8-C5F2-4D62-9D7A-5156BADCE39D}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A42376E8-C5F2-4D62-9D7A-5156BADCE39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A42376E8-C5F2-4D62-9D7A-5156BADCE39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A42376E8-C5F2-4D62-9D7A-5156BADCE39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A42376E8-C5F2-4D62-9D7A-5156BADCE39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15E1EFD2-4868-47B9-8DD8-DF6C08799680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15E1EFD2-4868-47B9-8DD8-DF6C08799680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15E1EFD2-4868-47B9-8DD8-DF6C08799680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15E1EFD2-4868-47B9-8DD8-DF6C08799680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4374E596-DF44-469D-9964-2CDDF253C6E7}
+	EndGlobalSection
+EndGlobal
